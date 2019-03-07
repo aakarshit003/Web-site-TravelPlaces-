@@ -1,0 +1,153 @@
+<html>
+    <head>
+            <link rel="stylesheet"type="text/css"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet"type="text/css"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+            <link rel="stylesheet" type="text/css" href="design.css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            }
+
+            
+
+            .header {
+            text-align: center;
+            padding: 62px;
+            }
+
+            .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 15px;
+            }
+
+            /* Create four equal columns that sits next to each other */
+            .column {
+            -ms-flex: 15%; /* IE10 */
+            flex: 15%;
+            max-width: 15%;
+            padding: 0 10px;
+            }
+
+            .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            }
+
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 10000px) {
+            .column {
+                -ms-flex: 33%;
+                flex: 33%;
+                max-width: 33%;
+            }
+            }
+
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 300px) {
+            .column {
+                -ms-flex: 150%;
+                flex: 150%;
+                max-width: 150%;
+            }
+            }
+        .animate {
+                        width: 300px;
+                        height: 40px;
+                        background-color:transparent;
+                        font-family: "Roboto";
+                        position: relative;
+                        font-size:60px;
+                        font-style: oblique;
+                        animation-name: example;
+                        animation-duration: 4s;
+                        font-weight: bold;
+                        animation-iteration-count: 1;
+                        text-shadow: 2px 2px 8px red;
+                        animation-fill-mode: forwards;
+                }
+                @keyframes example {
+                                    0%{background-color:transparent; left:0px; top:0px;}
+                                      25%  {background-color:transparent; left:200px; top:0px;}
+                                    100%{background-color:transparent; left:0px; top:0px;}
+}
+        h1{
+            color:tomato;
+            text-align:center;
+            font-family: "Roboto";
+            font-size:65px;
+            font-style: oblique;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px #FF0000;
+        }
+        h2{
+            color:turquoise;
+            text-align:left;
+            font size:62px;
+            font-style: oblique;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px #FF0000;
+            right:100px;
+         }
+    body {
+        background-image: url("https://fullhdpictures.com/wp-content/uploads/2017/04/Travel-Women-4K-HD.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size:cover;
+          }
+    </style>
+    </head>
+<body>
+    <div class="container">
+    <nav class="navbar navbar-default" style="background-color:transparent; border:3px solid black">
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class ="icon-bar"></span>
+                    <span class ="icon-bar"></span>
+                    <span class ="icon-bar"></span>
+                </button>
+            <a href="/home1"class="navbar-brand"style="color:cornflowerblue">TravelPlaces <i class="fas fa-plane-departure"></i></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="/about" style="color:cornflowerblue">About </a></li>
+                <li><a href="/contact"style="color: cornflowerblue">Contact Us <i class="fas fa-phone"></i></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li style="color:red">Welcome User <i class="fa fa-user"></i></li>
+            <li><a href="/logout"style="color:red">Logout <i class="fas fa-sign-out-alt"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<h1>Welcome to TravelPlaces.com</h1>
+<br>
+<div class="animate">
+<h2>Book while u walk</h2>
+</div>
+<div class="row"> 
+        <div class="column">
+                <a href="/ny"><img src="https://previews.123rf.com/images/bowie15/bowie151203/bowie15120300021/12799655-statue-of-liberty-with-new-york-in-the-background.jpg" style="width:150%"></a>
+                <a href="/india"><img src="http://im.rediff.com/news/2018/oct/31statue8.jpg" style="width:150%"></a>
+                <a href="/london"><img src="https://cdn.londonandpartners.com/visit/general-london/areas/river/76709-640x360-houses-of-parliament-and-london-eye-on-thames-from-above-640.jpg" style="width:180%"></a>
+              </div>
+        <div class="column">
+                    <a href="/bali"><img src="https://www.eggdonation.com/wp-content/uploads/2018/01/shutterstock_667925704-japan-1024x684.jpg" style="width:200%"></a>
+                    <a href="/england"><img src="https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/c_fill,g_faces:auto,fl_progressive,h_350/v1/images2/hero/27.jpg" style="width:200%"></a>
+                    <a href="/switzerland"><img src="https://i.ytimg.com/vi/6AvRtaToqFU/maxresdefault.jpg" style="width:200%"></a>
+        </div>
+        <div class="column">
+                <a href="/japan"><img src="https://img.jakpost.net/c/2018/02/01/2018_02_01_39875_1517462499._large.jpg" style="width:150%"></a>
+                <a href="/china"><img src="https://images.immediate.co.uk/volatile/sites/7/2016/07/GettyImages-481614053-484c86d.jpg?quality=45&resize=620,413" style="width:150%"></a>
+                <a href="/srilanka"><img src="https://media.gadventures.com/media-server/image_library/3764876_1080x810_Colombo_Sri_Lanka.jpg" style="width:130%">
+        </div>
+        
+</div>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+</body>
+</html>
